@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Trend_Task"
+      id="9aa74f58-d982-487c-9aa1-642c4af6d7ee"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Trend_Task"
+      id="9aa74f58-d982-487c-9aa1-642c4af6d7ee"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
