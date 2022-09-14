@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7edd2bda-aee9-4720-af6e-1597ca93d7f3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="Trend_Task">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="41;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a2afeb22-9b18-4da8-8434-944d76ba0ff6"
+		sx="1075"
+		sy="334"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="64c12d44-d2bb-4ccb-88e8-fc5914245cd0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1034,322,44,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Üye Ol
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]/span[@innertext='Üye Ol']
+				</path>
+				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'login-register']//span[@innertext='Üye Ol']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="06f28836-54aa-4334-be9c-165668c99562">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="5;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9f57e4fe-23f8-4e72-86e7-ad8582807191"
+		sx="932"
+		sy="700"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="864c0f7c-e00a-4931-9fa6-ae9f1e571431"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="927,689,49,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Üye Ol
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/?/?/span[@innertext='Üye Ol']
+				</path>
+				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'login-register']//form/button/span[@innertext='Üye Ol']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="b9a7d6d7-b6a9-4848-87fb-25ff28a4973a">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="c1b4972b-1ae0-47d3-8dc2-b60cf23abc7d"
+	name="Trend_TaskRepository"
+	relativepath="Trend_TaskRepository.rxrep">
+		<codegen
+		classname="Trend_TaskRepository"
+		namespace="Trend_Task">
+		</codegen>
+		<rootfolder
+		id="4a4ec3de-8a18-472c-8c7f-48117a4330a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

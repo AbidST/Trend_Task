@@ -27,7 +27,8 @@ namespace Trend_Task
     public partial class Trend_TaskRepository : RepoGenBaseFolder
     {
         static Trend_TaskRepository instance = new Trend_TaskRepository();
-        Trend_TaskRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
+        Trend_TaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder _httpswwwtrendyolcomuyelikcbeqhttps;
+        Trend_TaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttps1AppFolder _httpswwwtrendyolcomuyelikcbeqhttps1;
 
         /// <summary>
         /// Gets the singleton class instance representing the Trend_TaskRepository element repository.
@@ -44,7 +45,8 @@ namespace Trend_Task
         public Trend_TaskRepository() 
             : base("Trend_TaskRepository", "/", null, 0, false, "4a4ec3de-8a18-472c-8c7f-48117a4330a7", ".\\RepositoryImages\\Trend_TaskRepository4a4ec3de.rximgres")
         {
-            _applicationundertest = new Trend_TaskRepositoryFolders.ApplicationUnderTestAppFolder(this);
+            _httpswwwtrendyolcomuyelikcbeqhttps = new Trend_TaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder(this);
+            _httpswwwtrendyolcomuyelikcbeqhttps1 = new Trend_TaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttps1AppFolder(this);
         }
 
 #region Variables
@@ -64,12 +66,21 @@ namespace Trend_Task
         }
 
         /// <summary>
-        /// The ApplicationUnderTest folder.
+        /// The HttpsWwwTrendyolComUyelikcbEqhttps folder.
         /// </summary>
-        [RepositoryFolder("4aaebbe6-2a2a-42a4-b6e9-5645151540db")]
-        public virtual Trend_TaskRepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
+        [RepositoryFolder("eaff1463-561c-498d-a2c8-08c4bb9100ba")]
+        public virtual Trend_TaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder HttpsWwwTrendyolComUyelikcbEqhttps
         {
-            get { return _applicationundertest; }
+            get { return _httpswwwtrendyolcomuyelikcbeqhttps; }
+        }
+
+        /// <summary>
+        /// The HttpsWwwTrendyolComUyelikcbEqhttps1 folder.
+        /// </summary>
+        [RepositoryFolder("68d6061e-b4fd-47d3-a228-6d94acf3f97e")]
+        public virtual Trend_TaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttps1AppFolder HttpsWwwTrendyolComUyelikcbEqhttps1
+        {
+            get { return _httpswwwtrendyolcomuyelikcbeqhttps1; }
         }
     }
 
@@ -80,32 +91,50 @@ namespace Trend_Task
     public partial class Trend_TaskRepositoryFolders
     {
         /// <summary>
-        /// The ApplicationUnderTestAppFolder folder.
+        /// The HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder folder.
         /// </summary>
-        [RepositoryFolder("4aaebbe6-2a2a-42a4-b6e9-5645151540db")]
-        public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("eaff1463-561c-498d-a2c8-08c4bb9100ba")]
+        public partial class HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _ueyeolInfo;
+            RepoItemInfo _ueyeol1Info;
             RepoItemInfo _registeremailInfo;
-            RepoItemInfo _registerpasswordinputInfo;
-            RepoItemInfo _qbuttonqbuttonmediumqfluidqprimaInfo;
+            RepoItemInfo _customstampboxwrapperInfo;
+            RepoItemInfo _somedivtagInfo;
+            RepoItemInfo _iheartwdfvrtbtnInfo;
+            RepoItemInfo _favorilerimInfo;
+            RepoItemInfo _sepetimInfo;
+            RepoItemInfo _sepetionaylaInfo;
+            RepoItemInfo _pcheckboxtextInfo;
+            RepoItemInfo _kaydetvedevametInfo;
+            RepoItemInfo _httpscdndsmcdncomwebproductiontyInfo;
+            RepoItemInfo _cıkışyapInfo;
 
             /// <summary>
-            /// Creates a new ApplicationUnderTest  folder.
+            /// Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
             /// </summary>
-            public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ApplicationUnderTest", "/dom[@domain='www.trendyol.com']", parentFolder, 30000, null, false, "4aaebbe6-2a2a-42a4-b6e9-5645151540db", "")
+            public HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HttpsWwwTrendyolComUyelikcbEqhttps", "/dom[@domain='www.trendyol.com']", parentFolder, 30000, null, false, "eaff1463-561c-498d-a2c8-08c4bb9100ba", "")
             {
-                _ueyeolInfo = new RepoItemInfo(this, "UEyeOl", ".//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']", ".//div[#'account-navigation-container']//div[@innertext='Üye Ol']", 30000, null, "5cfe867b-c031-492d-9dcd-50c1c179d654");
-                _registeremailInfo = new RepoItemInfo(this, "RegisterEmail", ".//input[#'register-email']", ".//input[#'register-email']", 30000, null, "eab7f4d8-e995-4dda-b3e3-d4d6cacbb5aa");
-                _registerpasswordinputInfo = new RepoItemInfo(this, "RegisterPasswordInput", ".//input[#'register-password-input']", ".//input[#'register-password-input']", 30000, null, "b6235e81-7ca7-4a82-b513-2914ebb994bb");
-                _qbuttonqbuttonmediumqfluidqprimaInfo = new RepoItemInfo(this, "QButtonQButtonMediumQFluidQPrima", ".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button", ".//div[#'login-register']//form/button", 30000, null, "0bc1497d-2d69-40ed-b846-b61bf855fb1d");
+                _ueyeolInfo = new RepoItemInfo(this, "UEyeOl", ".//div[#'login-register']/div[2]/div/button[2]/span[@innertext='Üye Ol']", ".//div[#'login-register']//span[@innertext='Üye Ol']", 30000, null, "64c12d44-d2bb-4ccb-88e8-fc5914245cd0");
+                _ueyeol1Info = new RepoItemInfo(this, "UEyeOl1", ".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/?/?/span[@innertext='Üye Ol']", ".//div[#'login-register']//form/button/span[@innertext='Üye Ol']", 30000, null, "864c0f7c-e00a-4931-9fa6-ae9f1e571431");
+                _registeremailInfo = new RepoItemInfo(this, "RegisterEmail", ".//input[#'register-email']", ".//input[#'register-email']", 30000, null, "83018aab-0afa-44f0-9429-4f0d2dd38481");
+                _customstampboxwrapperInfo = new RepoItemInfo(this, "CustomStampBoxWrapper", ".//div[#'browsing-gw-homepage']/div/div/div/article[6]/div/div/div[3]/div[2]/div[@title>'Erkek Füme Sneaker Günlük']/a[@href>'https://www.trendyol.com/']/div[1]/div/div[2]", ".//div[#'browsing-gw-homepage']//div[@title>'Erkek Füme Sneaker Günlük']/a[@href>'https://www.trendyol.com/']/div[1]/div/div[2]", 30000, null, "9e4a1652-22c7-44a6-a1c9-f036dcd32853");
+                _somedivtagInfo = new RepoItemInfo(this, "SomeDivTag", "body/?/?/div/div/div/div/div/div/article//div", "body/div/div/div/div/div/div/div/article/div/div/div/div/div/a/div/div/div", 30000, null, "bb400f40-13da-4acc-8e65-d16e2962498e");
+                _iheartwdfvrtbtnInfo = new RepoItemInfo(this, "IHeartWdFvrtBtn", ".//div[#'browsing-gw-homepage']/div/div/div/article[6]/div/div/div[3]/?/?/div[@title='Lite Card']/div[1]/i", ".//div[#'browsing-gw-homepage']//div[@title='Lite Card']/div[1]/i", 30000, null, "d05ffb38-675c-46f0-8dc4-6ec8f5bb3e38");
+                _favorilerimInfo = new RepoItemInfo(this, "Favorilerim", ".//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']", ".//div[#'account-navigation-container']//p[@innertext='Favorilerim']", 30000, null, "1df3e244-2f51-4687-8fe0-4144a7e87741");
+                _sepetimInfo = new RepoItemInfo(this, "Sepetim", ".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']", ".//div[#'account-navigation-container']//p[@innertext='Sepetim']", 30000, null, "dcff1ecb-3a9a-4b97-8722-eef55ed61768");
+                _sepetionaylaInfo = new RepoItemInfo(this, "SepetiOnayla", ".//div[#'pb-container']/aside/div/div[5]/?/?/span[@innertext='Sepeti Onayla']", ".//div[#'pb-container']/aside/div/div[5]/a[@href>'https://www.trendyol.com/']/span[@innertext='Sepeti Onayla']", 30000, null, "ede7819d-0d1b-4416-8cf9-2bb6794f8fa0");
+                _pcheckboxtextInfo = new RepoItemInfo(this, "PCheckboxText", ".//div[#'p-layout']/aside/div/div[2]/section//span", ".//div[#'p-layout']/aside/div/div[2]/section/div/label/span", 30000, null, "1e94ef07-bfa4-406c-86e6-a195ab85d443");
+                _kaydetvedevametInfo = new RepoItemInfo(this, "KaydetVeDevamEt", ".//div[#'p-layout']/aside/div/div[4]/button[@innertext='Kaydet ve Devam Et']", ".//div[#'p-layout']/aside/div/div[4]/button[@innertext='Kaydet ve Devam Et']", 30000, null, "335a8cd8-eca0-4c10-9d8a-ce6750ad61da");
+                _httpscdndsmcdncomwebproductiontyInfo = new RepoItemInfo(this, "HttpsCdnDsmcdnComWebProductionTy", ".//main[#'payment-app']//img[@src='https://cdn.dsmcdn.com/web/production/ty-web.svg']", ".//main[#'payment-app']//img[@src='https://cdn.dsmcdn.com/web/production/ty-web.svg']", 30000, null, "fec75a0e-5e00-431e-b5d1-82817ed7db83");
+                _cıkışyapInfo = new RepoItemInfo(this, "CıkışYap", ".//div[#'account-navigation-container']/div/div[1]//button/p[@innertext='Çıkış Yap']", ".//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']", 30000, null, "babe3e33-0c55-4e3d-b13a-bec796d0233a");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("4aaebbe6-2a2a-42a4-b6e9-5645151540db")]
+            [RepositoryItem("eaff1463-561c-498d-a2c8-08c4bb9100ba")]
             public virtual Ranorex.WebDocument Self
             {
                 get
@@ -117,7 +146,7 @@ namespace Trend_Task
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("4aaebbe6-2a2a-42a4-b6e9-5645151540db")]
+            [RepositoryItemInfo("eaff1463-561c-498d-a2c8-08c4bb9100ba")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -129,19 +158,19 @@ namespace Trend_Task
             /// <summary>
             /// The UEyeOl item.
             /// </summary>
-            [RepositoryItem("5cfe867b-c031-492d-9dcd-50c1c179d654")]
-            public virtual Ranorex.DivTag UEyeOl
+            [RepositoryItem("64c12d44-d2bb-4ccb-88e8-fc5914245cd0")]
+            public virtual Ranorex.SpanTag UEyeOl
             {
                 get
                 {
-                    return _ueyeolInfo.CreateAdapter<Ranorex.DivTag>(true);
+                    return _ueyeolInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
             /// The UEyeOl item info.
             /// </summary>
-            [RepositoryItemInfo("5cfe867b-c031-492d-9dcd-50c1c179d654")]
+            [RepositoryItemInfo("64c12d44-d2bb-4ccb-88e8-fc5914245cd0")]
             public virtual RepoItemInfo UEyeOlInfo
             {
                 get
@@ -151,9 +180,33 @@ namespace Trend_Task
             }
 
             /// <summary>
+            /// The UEyeOl1 item.
+            /// </summary>
+            [RepositoryItem("864c0f7c-e00a-4931-9fa6-ae9f1e571431")]
+            public virtual Ranorex.SpanTag UEyeOl1
+            {
+                get
+                {
+                    return _ueyeol1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UEyeOl1 item info.
+            /// </summary>
+            [RepositoryItemInfo("864c0f7c-e00a-4931-9fa6-ae9f1e571431")]
+            public virtual RepoItemInfo UEyeOl1Info
+            {
+                get
+                {
+                    return _ueyeol1Info;
+                }
+            }
+
+            /// <summary>
             /// The RegisterEmail item.
             /// </summary>
-            [RepositoryItem("eab7f4d8-e995-4dda-b3e3-d4d6cacbb5aa")]
+            [RepositoryItem("83018aab-0afa-44f0-9429-4f0d2dd38481")]
             public virtual Ranorex.InputTag RegisterEmail
             {
                 get
@@ -165,7 +218,7 @@ namespace Trend_Task
             /// <summary>
             /// The RegisterEmail item info.
             /// </summary>
-            [RepositoryItemInfo("eab7f4d8-e995-4dda-b3e3-d4d6cacbb5aa")]
+            [RepositoryItemInfo("83018aab-0afa-44f0-9429-4f0d2dd38481")]
             public virtual RepoItemInfo RegisterEmailInfo
             {
                 get
@@ -175,50 +228,282 @@ namespace Trend_Task
             }
 
             /// <summary>
-            /// The RegisterPasswordInput item.
+            /// The CustomStampBoxWrapper item.
             /// </summary>
-            [RepositoryItem("b6235e81-7ca7-4a82-b513-2914ebb994bb")]
-            public virtual Ranorex.InputTag RegisterPasswordInput
+            [RepositoryItem("9e4a1652-22c7-44a6-a1c9-f036dcd32853")]
+            public virtual Ranorex.DivTag CustomStampBoxWrapper
             {
                 get
                 {
-                    return _registerpasswordinputInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _customstampboxwrapperInfo.CreateAdapter<Ranorex.DivTag>(true);
                 }
             }
 
             /// <summary>
-            /// The RegisterPasswordInput item info.
+            /// The CustomStampBoxWrapper item info.
             /// </summary>
-            [RepositoryItemInfo("b6235e81-7ca7-4a82-b513-2914ebb994bb")]
-            public virtual RepoItemInfo RegisterPasswordInputInfo
+            [RepositoryItemInfo("9e4a1652-22c7-44a6-a1c9-f036dcd32853")]
+            public virtual RepoItemInfo CustomStampBoxWrapperInfo
             {
                 get
                 {
-                    return _registerpasswordinputInfo;
+                    return _customstampboxwrapperInfo;
                 }
             }
 
             /// <summary>
-            /// The QButtonQButtonMediumQFluidQPrima item.
+            /// The SomeDivTag item.
             /// </summary>
-            [RepositoryItem("0bc1497d-2d69-40ed-b846-b61bf855fb1d")]
-            public virtual Ranorex.ButtonTag QButtonQButtonMediumQFluidQPrima
+            [RepositoryItem("bb400f40-13da-4acc-8e65-d16e2962498e")]
+            public virtual Ranorex.DivTag SomeDivTag
             {
                 get
                 {
-                    return _qbuttonqbuttonmediumqfluidqprimaInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                    return _somedivtagInfo.CreateAdapter<Ranorex.DivTag>(true);
                 }
             }
 
             /// <summary>
-            /// The QButtonQButtonMediumQFluidQPrima item info.
+            /// The SomeDivTag item info.
             /// </summary>
-            [RepositoryItemInfo("0bc1497d-2d69-40ed-b846-b61bf855fb1d")]
-            public virtual RepoItemInfo QButtonQButtonMediumQFluidQPrimaInfo
+            [RepositoryItemInfo("bb400f40-13da-4acc-8e65-d16e2962498e")]
+            public virtual RepoItemInfo SomeDivTagInfo
             {
                 get
                 {
-                    return _qbuttonqbuttonmediumqfluidqprimaInfo;
+                    return _somedivtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IHeartWdFvrtBtn item.
+            /// </summary>
+            [RepositoryItem("d05ffb38-675c-46f0-8dc4-6ec8f5bb3e38")]
+            public virtual Ranorex.ITag IHeartWdFvrtBtn
+            {
+                get
+                {
+                    return _iheartwdfvrtbtnInfo.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IHeartWdFvrtBtn item info.
+            /// </summary>
+            [RepositoryItemInfo("d05ffb38-675c-46f0-8dc4-6ec8f5bb3e38")]
+            public virtual RepoItemInfo IHeartWdFvrtBtnInfo
+            {
+                get
+                {
+                    return _iheartwdfvrtbtnInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Favorilerim item.
+            /// </summary>
+            [RepositoryItem("1df3e244-2f51-4687-8fe0-4144a7e87741")]
+            public virtual Ranorex.PTag Favorilerim
+            {
+                get
+                {
+                    return _favorilerimInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Favorilerim item info.
+            /// </summary>
+            [RepositoryItemInfo("1df3e244-2f51-4687-8fe0-4144a7e87741")]
+            public virtual RepoItemInfo FavorilerimInfo
+            {
+                get
+                {
+                    return _favorilerimInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Sepetim item.
+            /// </summary>
+            [RepositoryItem("dcff1ecb-3a9a-4b97-8722-eef55ed61768")]
+            public virtual Ranorex.PTag Sepetim
+            {
+                get
+                {
+                    return _sepetimInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Sepetim item info.
+            /// </summary>
+            [RepositoryItemInfo("dcff1ecb-3a9a-4b97-8722-eef55ed61768")]
+            public virtual RepoItemInfo SepetimInfo
+            {
+                get
+                {
+                    return _sepetimInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SepetiOnayla item.
+            /// </summary>
+            [RepositoryItem("ede7819d-0d1b-4416-8cf9-2bb6794f8fa0")]
+            public virtual Ranorex.SpanTag SepetiOnayla
+            {
+                get
+                {
+                    return _sepetionaylaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SepetiOnayla item info.
+            /// </summary>
+            [RepositoryItemInfo("ede7819d-0d1b-4416-8cf9-2bb6794f8fa0")]
+            public virtual RepoItemInfo SepetiOnaylaInfo
+            {
+                get
+                {
+                    return _sepetionaylaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PCheckboxText item.
+            /// </summary>
+            [RepositoryItem("1e94ef07-bfa4-406c-86e6-a195ab85d443")]
+            public virtual Ranorex.SpanTag PCheckboxText
+            {
+                get
+                {
+                    return _pcheckboxtextInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PCheckboxText item info.
+            /// </summary>
+            [RepositoryItemInfo("1e94ef07-bfa4-406c-86e6-a195ab85d443")]
+            public virtual RepoItemInfo PCheckboxTextInfo
+            {
+                get
+                {
+                    return _pcheckboxtextInfo;
+                }
+            }
+
+            /// <summary>
+            /// The KaydetVeDevamEt item.
+            /// </summary>
+            [RepositoryItem("335a8cd8-eca0-4c10-9d8a-ce6750ad61da")]
+            public virtual Ranorex.ButtonTag KaydetVeDevamEt
+            {
+                get
+                {
+                    return _kaydetvedevametInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The KaydetVeDevamEt item info.
+            /// </summary>
+            [RepositoryItemInfo("335a8cd8-eca0-4c10-9d8a-ce6750ad61da")]
+            public virtual RepoItemInfo KaydetVeDevamEtInfo
+            {
+                get
+                {
+                    return _kaydetvedevametInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsCdnDsmcdnComWebProductionTy item.
+            /// </summary>
+            [RepositoryItem("fec75a0e-5e00-431e-b5d1-82817ed7db83")]
+            public virtual Ranorex.ImgTag HttpsCdnDsmcdnComWebProductionTy
+            {
+                get
+                {
+                    return _httpscdndsmcdncomwebproductiontyInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsCdnDsmcdnComWebProductionTy item info.
+            /// </summary>
+            [RepositoryItemInfo("fec75a0e-5e00-431e-b5d1-82817ed7db83")]
+            public virtual RepoItemInfo HttpsCdnDsmcdnComWebProductionTyInfo
+            {
+                get
+                {
+                    return _httpscdndsmcdncomwebproductiontyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CıkışYap item.
+            /// </summary>
+            [RepositoryItem("babe3e33-0c55-4e3d-b13a-bec796d0233a")]
+            public virtual Ranorex.PTag CıkışYap
+            {
+                get
+                {
+                    return _cıkışyapInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CıkışYap item info.
+            /// </summary>
+            [RepositoryItemInfo("babe3e33-0c55-4e3d-b13a-bec796d0233a")]
+            public virtual RepoItemInfo CıkışYapInfo
+            {
+                get
+                {
+                    return _cıkışyapInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The HttpsWwwTrendyolComUyelikcbEqhttps1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("68d6061e-b4fd-47d3-a228-6d94acf3f97e")]
+        public partial class HttpsWwwTrendyolComUyelikcbEqhttps1AppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new HttpsWwwTrendyolComUyelikcbEqhttps1  folder.
+            /// </summary>
+            public HttpsWwwTrendyolComUyelikcbEqhttps1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HttpsWwwTrendyolComUyelikcbEqhttps1", "/form[@title>'https://www.trendyol.com/']", parentFolder, 30000, null, true, "68d6061e-b4fd-47d3-a228-6d94acf3f97e", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("68d6061e-b4fd-47d3-a228-6d94acf3f97e")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("68d6061e-b4fd-47d3-a228-6d94acf3f97e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

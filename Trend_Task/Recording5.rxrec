@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dc880e25-97eb-40df-aee6-8325b4528d50"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording5"
+	namespace="Trend_Task">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="19;17"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0d67e307-1b61-4f0f-9d8d-455d7e70314e"
+		sx="1189"
+		sy="503"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d05ffb38-675c-46f0-8dc4-6ec8f5bb3e38"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, itag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="itag"
+				rect="1170,486,33,33"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						wd-fvrt-btn i-heart
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						i-heart wd-fvrt-btn
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']/div/div/div/article[6]/div/div/div[3]/?/?/div[@title='Lite Card']/div[1]/i
+				</path>
+				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']//div[@title='Lite Card']/div[1]/i
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="2a9ab5e8-1a0f-48c5-8268-b8cb0bbe2756">
+				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
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFI33T9KWkb7p+lAAKKBRSGFC9/rRQvf60wFooooEF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABSN90/SlpG+6fpQACigUUhhQ
+vf60UL3+tMCK7nNvDvCBzuCgE46nFRG8ZPNWSICSMAgK+Qc8AZx/SpL2A3Nv5Y2/eUnd0IBBNMls
+0byo40WOJW3ME+Uk44xj3oEDXh+zRSpGC0jhNpbGD0POPWkN6yrIDEDKjKu1WyGJ6c4/pUbWDFTF
+8rQ+cJAHJPHcHPvUslmrvEqqscKZYqhKnd26fjQANeEx27RRhjOcAM2McZ9DSfbT5Dv5WZFk8vYG
+4LexqP8As8ny43CPDHKzBWJPykHjn3NEdi4EUTsPJiZiu1iG9unpk0AXIZRNCki9GAP0pI5d8PmY
+x14z6Uy0ha3RoyQU3kpySQDzzn8aSKOZIjEVj28/MHOec9sUMByXKO+z5s7QxO04596fHMkpIQk4
+55BHHrUIt3AK5Xa0QjY55GM9PXrTreFo2y4G4DAPmM2fz6UAOWV3Y+XGCgbaWLYPvgU7zU8zy8kN
+2ypwfx6VGiSxEqmwoWJyScjJ5470wWz+ertsO1y27JLEc8e1AEouYim8MSucA7Tyfb1pYZRMrEDA
+DEVEIJEih27S8R6E8GpYEZFbfjLMW4oAkooooAKKKKACiiigAooooAKRvun6UtI33T9KAAUUCikM
+KF7/AFooXv8AWmAtFFFAgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKR
+vun6UtI33T9KAAUUCikMKF7/AFooXv8AWmAtFFFAgooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKRvun6UtI33T9KAAUUCikMKF7/AFooXv8AWmAkjrGhdzhR3psU8c2fLbdj
+rwaLhPMi2hgpyOTTLd5POkikYPtwdwGKm75rFJJxv1D7bbg/6z/x01JHNHKSEbJABPHrUUv/AB/Q
+fRqSH/j+uPov8qlOV7MbjG10WaKKK0MwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACk
+b7p+lLSN90/SgAFFAopDChe/1ooXv9aYCOiyLtdQRSRRRxAiNdoNPopWV7hd2sNMamRXI+ZehqOS
+1hkcu6ZY9Tk1NRQ4p7oFJrZgAFUAdBwKKKKYgooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACkb7p+lLSN90/SgAFFAopDChe/wBaKF7/AFpgLRRRQIKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACkb7p+lLSN90/SgAFFAopDCkBwTmlooANw9RRuHqKMUYpiDcPUUbh
+6ijFGKADcPUUbh6ijFGKADcPUUbh6ijFGKADcPUUbh6ijFGKADcPUUbh6ijFGKADcPUUbh6ijFGK
+ADcPUUbh6ijFGKADcPUUbh6ijFGKADcPUUbh6ijFGKADcPUUbh6ijFGKADcPUUEgjA5zRiigAooo
+pDCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+A//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="18;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="167e77a8-34a4-46c3-9e38-7d5c2795f531"
+		sx="1384"
+		sy="100"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1df3e244-2f51-4687-8fe0-4144a7e87741"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="ptag"
+				rect="1366,95,69,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Favorilerim
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href&gt;'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']
+				</path>
+				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Favorilerim']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="d6e6a601-714f-4619-a432-33cb4ece0a31">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA8AGoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKAI5riKEgO2Ce1Na7gVAxkGD0qjqKMLncejDiqlcsq0k2
+rHTGjFxTuS2cmqXkRkjuYwA235lH+HvU/kax/wA/UP5f/Y0nh8H7JIexfH6CrkZJlkJDnaxwd3yj
+j0zWqWiNKs+WbSS08kVPI1j/AJ+ofy/+xo8jWP8An6h/L/7GoNV1G5t2UwyKAqGQ/Jw+Cowc9uT0
+rRS583BhZGV2IRhyMDqfeno+pn7SX8q+4q+RrH/P1D+X/wBjR5Gsf8/UP5f/AGNW0md3VQFBO7J6
+9DTBKQwY5wN+Rk84NLTuHtJdl9yK/kax/wA/UP5f/Y0eRrH/AD9Q/l/9jVr7RII2bb0AIO0gdenN
+LJK8bPnBKoD3x19M09A9pL+VfcVPI1j/AJ+ofy/+xp2lT3EstzHcyBzEwXgAeuf5VYM0ql87CEYA
+4B5zVXSv+P7UP+un9WoW6KvzU5XS6dPM06KKK0OQZNEkybHHH8qpx6diTMjAoOmO9X6Khwi3dlxn
+KKsjM8P/APHi/wD10P8AIVdneO2t5ZXUlACzADJNUv7Ctf8AnpN+Y/woOhWpGC8pH1H+FJXStY3q
+eynJy5t/IoXbreypEkTRSrEwdXOR1QjB7jg/lUF1a+TG1wAgkQu4YddxYFT+ArQmgGmoAzM1sMBX
+bkp7N7eh/D0zCfLvyLWF94cgOychV6nJ6A4BA96xfPzpWEuXlvc3VjRSpC42jApBCgIO3pnv69az
+/wCwrX/npN+Y/wAKP7Ctf+ek35j/AArfXsTy0/5393/BNDyU2FcHae2TQ0SOSWGcjB57Vn/2Fa/8
+9JvzH+FH9hWv/PSb8x/hRr2Hy0/5393/AATQMSHdkfeIJ59Kz9K/4/tQ/wCun9Wo/sK1/wCek35j
+/CrVlYxWW/ymc78Z3Edv/wBdFnfYd4RhJKV7+RZoooqzmCiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="c1b4972b-1ae0-47d3-8dc2-b60cf23abc7d"
+	name="Trend_TaskRepository"
+	relativepath="Trend_TaskRepository.rxrep">
+		<codegen
+		classname="Trend_TaskRepository"
+		namespace="Trend_Task">
+		</codegen>
+		<rootfolder
+		id="4a4ec3de-8a18-472c-8c7f-48117a4330a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording5.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
